@@ -9,7 +9,7 @@
  */
 
 .animated {
-  animation-duration: .50s;
+  animation-duration: .25s;
   animation-fill-mode: both;
 }
 
@@ -18,14 +18,14 @@
 }
 
 .animated.hinge {
-  animation-duration: 1s;
+  animation-duration: .50s;
 }
 
 .animated.flipOutX,
 .animated.flipOutY,
 .animated.bounceIn,
 .animated.bounceOut {
-  animation-duration: .75s;
+  animation-duration: .50s;
 }
 
 @keyframes bounce {
