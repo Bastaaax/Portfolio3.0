@@ -94,6 +94,8 @@
 
 .mfp-hide {
   display: none !important; 
+  width: 1080;
+  height: 1920;
 }
 
 .mfp-preloader {

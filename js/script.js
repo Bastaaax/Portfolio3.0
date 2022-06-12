@@ -296,6 +296,7 @@ $(function() {
                   index: 'youtu.be/',
                   id: 'youtu.be/',
                   src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+				  
                 }
             }
         },
@@ -305,7 +306,7 @@ $(function() {
 		mainClass: 'mfp-fade',
 		callbacks: {
 			markupParse: function(template, values, item) {
-				template.find('iframe').attr('allow', 'autoplay');
+				template.find('iframe').attr('allow', 'autoplay')   ;
 			}
 		}
 	});
